@@ -1,0 +1,186 @@
+Package: freecwmp
+Version: 2014-06-12-8f3c163fc85337e63bfa64da3c02f10d1fe3b169
+Depends: libc, libcurl, libfreecwmp, libuci, libubox, libubus, libmicroxml, shflags
+Source: feeds/management/freecwmp
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 27146
+Filename: freecwmp_2014-06-12-8f3c163fc85337e63bfa64da3c02f10d1fe3b169_ar71xx.ipk
+Size: 27930
+MD5Sum: 2c4020dd1385290c2464486dbfc79854
+SHA256sum: f759d24611af73e21252a3e197e2cf8d1ab834a1c561245060f04792478dc1ae
+Description:  A free client implementation of CWMP (TR-069) protocol
+
+Package: freenetconfd-plugin-examples
+Version: 2015-06-28-4a5dd9be91aae502b3f6a930558159d4ee6a775a
+Depends: libc, freenetconfd
+Source: feeds/management/freenetconfd-plugin-examples
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 8451
+Filename: freenetconfd-plugin-examples_2015-06-28-4a5dd9be91aae502b3f6a930558159d4ee6a775a_ar71xx.ipk
+Size: 9221
+MD5Sum: b994f6296301a0cda511c84ae9d59d4e
+SHA256sum: 3935090f191dc21c9b6b196253734dded2e5ce7ac9cae2dbd4e84dc2306d2335
+Description:  freenetconfd example plugins
+
+Package: freenetconfd
+Version: 2015-11-12-9b4dc3f45982ac9ede2db2218f5578f7268528ba
+Depends: libc, libuci, libubox, libubus, libroxml
+Source: feeds/management/freenetconfd
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 12989
+Filename: freenetconfd_2015-11-12-9b4dc3f45982ac9ede2db2218f5578f7268528ba_ar71xx.ipk
+Size: 13771
+MD5Sum: 214a0ea68fbeaae7a5144aac0faabefb
+SHA256sum: e67c86eee9b9118bd34c7e913274290f87fe3c5fe52ad1774939f38d4de32e4e
+Description:  netconf server
+
+Package: freesub
+Version: 2014-12-03-a1a38e80c6642af723d6aa65f64910dcf27cb3da
+Depends: libc, libubox
+Source: feeds/management/freesub
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2597
+Filename: freesub_2014-12-03-a1a38e80c6642af723d6aa65f64910dcf27cb3da_ar71xx.ipk
+Size: 3371
+MD5Sum: 4b8991d2dcc63336b9ee2e1afed5babb
+SHA256sum: 2af5449c9ea777e8bda4bb72ccd6b7afd6b8ccc686cd89d777da90df881beb5b
+Description:  SSH subsystem helper
+
+Package: libfreecwmp
+Version: 2014-06-12-d2fdd97d66fde14859c06228a922066d9e8b669b
+Depends: libc
+Source: feeds/management/libfreecwmp
+License: GPL-2.0+
+Section: libs
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2293
+Filename: libfreecwmp_2014-06-12-d2fdd97d66fde14859c06228a922066d9e8b669b_ar71xx.ipk
+Size: 3056
+MD5Sum: 186951b480a9174c301522b3b3893795
+SHA256sum: 0b8326329dc421b51b358ba67f01f103fbc087384a260f9d51e5dd08b123f7ff
+Description:  CWMP library
+
+Package: libmicroxml
+Version: 2012-06-11-72965423184f24cc0b963d91c2d1863cdb01b6aa
+Depends: libc
+Source: feeds/management/libmicroxml
+License: LGPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 16493
+Filename: libmicroxml_2012-06-11-72965423184f24cc0b963d91c2d1863cdb01b6aa_ar71xx.ipk
+Size: 16863
+MD5Sum: acd7f1be99f5c59f63292c9f34c75b1a
+SHA256sum: 14473f4ebecf001c614e22397a035ccfc15d96c1a707e33d211a06559266d309
+Description:  A micro sized XML library
+
+Package: libnetconf
+Version: 0.9.1-1
+Depends: libc, libxml2, zlib, libxslt, libcurl, libssh2
+Source: feeds/management/libnetconf
+License: BSD-3-Clause
+Section: libs
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ar71xx
+Installed-Size: 161075
+Filename: libnetconf_0.9.1-1_ar71xx.ipk
+Size: 161854
+MD5Sum: 976f4e3658a657c590d85e1973dda404
+SHA256sum: 085d79566fdae13ecd965f3c83a6ea42b8e21bf8c69f21f3fda845cbb093ba48
+Description:  libnetconf is the NETCONF library in C intended for building NETCONF clients and servers.
+ 
+ libnetconf provides basic functions to connect NETCONF client and server to each other via
+ SSH, to send and receive NETCONF messages and to store and work with the configuration data 
+ in a datastore.
+
+Package: libssh
+Version: 2014-07-10-59a179950150d0305d6189ce9c126a9a0c5f6ab4
+Depends: libc, libpthread, librt, zlib, libopenssl
+Source: feeds/management/libssh
+License: LGPL-2.1+ BSD-2-Clause
+Section: lib
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 99717
+Filename: libssh_2014-07-10-59a179950150d0305d6189ce9c126a9a0c5f6ab4_ar71xx.ipk
+Size: 100536
+MD5Sum: 896e8e7619c73363ebfc73cab0408535
+SHA256sum: 0f2daffe6c2b00a13a2bf3fb381a3d80be5219400bdb28b8d96d6d3205d3870b
+Description:  libssh is a mulitplatform C library implementing the SSHv2 and SSHv1 protocol
+ for client and server implementations.
+
+Package: libyang
+Version: 0.4.6-fcd305267837985c718890931433f35b4ffca567
+Depends: libc, libpcre
+Source: feeds/management/libyang
+License: GPL-2.0+
+Section: libs
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 125999
+Filename: libyang_0.4.6-fcd305267837985c718890931433f35b4ffca567_ar71xx.ipk
+Size: 126852
+MD5Sum: 3056fb3263fe43bde0d1ff20c1d2ba9f
+SHA256sum: 0e5ab9576737a56ffc519d6134e0dec2cb6e6c1234e77e10ae9aad7f26866dd9
+Description:  YANG data modeling language library
+
+Package: shflags
+Version: 2012-06-11-c12b30cebb92b49c5edb6df255c0952c65b4ddc6
+Depends: libc, getopt
+Source: feeds/management/shflags
+License: LGPL-2.1
+Section: libs
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 4308
+Filename: shflags_2012-06-11-c12b30cebb92b49c5edb6df255c0952c65b4ddc6_ar71xx.ipk
+Size: 5061
+MD5Sum: 46794d3b7baaafbe94f9886af325e707
+SHA256sum: fcc5432103d1e79f7e8f8324e06c73450550c6bd072322490cd9103b641689c9
+Description:  command-line flags module for Unix shell scripts
+
+Package: shtool
+Version: 2.0.8-1
+Depends: libc
+Source: feeds/management/shtool
+License: GPL-2.0+
+Section: utils
+Architecture: ar71xx
+Installed-Size: 32125
+Filename: shtool_2.0.8-1_ar71xx.ipk
+Size: 32933
+MD5Sum: 911c0e1291747f19686d56a5b653730a
+SHA256sum: 94cec3ddfef9cd744d4bdaa222209efb5ebbe10cb3d09c43bfde580eac7f6e27
+Description:  GNU shtool is a compilation of small but very stable and portable shell
+ scripts into a single shell tool.
+
+Package: yanglint
+Version: 0.4.6-fcd305267837985c718890931433f35b4ffca567
+Depends: libc, libyang
+Source: feeds/management/libyang
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 12595
+Filename: yanglint_0.4.6-fcd305267837985c718890931433f35b4ffca567_ar71xx.ipk
+Size: 13365
+MD5Sum: e993898f2df59253498cfbc0d7a29972
+SHA256sum: f6344acaf08f3fd4fc30d101b09a693292854af0fbda16db5caa828929e48566
+Description:  YANG data modeling language utility
+

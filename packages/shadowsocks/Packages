@@ -1,0 +1,29 @@
+Package: libmbedtls
+Version: 2.4.2-1
+Depends: libc
+Source: feeds/shadowsocks/base/mbedtls
+License: GPL-2.0+
+Section: libs
+Architecture: ar71xx
+Installed-Size: 156494
+Filename: libmbedtls_2.4.2-1_ar71xx.ipk
+Size: 156875
+MD5Sum: 7ec5b5167b54d624628a1fc309df6175
+SHA256sum: 2b2de99b3dd9ea52eddaf26afa424a4b1fd33bd1a47fe59ad32b655c19bf00c3
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+Source: feeds/shadowsocks/base/libudns
+Section: net
+Architecture: ar71xx
+Installed-Size: 17962
+Filename: libudns_0.4-1_ar71xx.ipk
+Size: 18668
+MD5Sum: 0820235356df087874e481c96fd4ca27
+SHA256sum: 1e3662059c772041d5cf8801863682733258218e9750364f3500479f37a45c1c
+Description:  The DNS library, udns, implements thread-safe stub DNS resolver functionality, which may be used both traditional, syncronous way and asyncronously, with application-supplied event loop.
+
