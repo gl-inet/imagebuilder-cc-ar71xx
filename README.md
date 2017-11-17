@@ -36,7 +36,7 @@ make image PROFILE=GL-AR150 PACKAGES="luci" FILES=files/files-clean-ar/
 ```
 For GL-AR300M
 ```
-make image PROFILE=GL-AR300M PACKAGES="luci" FILES=files/files-clean-ar/
+make image PROFILE=GL-AR300M PACKAGES="luci" FILES=files/files-clean-ar300m/
 ```
 For GL-MiFi
 ```
