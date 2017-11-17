@@ -1,4 +1,4 @@
-# Image builder of GL-AR300M Nor, GL-AR150, GL-MiFi
+# Image builder of GL-AR300M Nor, GL-AR150, GL-MiFi, GL-USB150 and GL.iNet6416
 
 This is the image builder for AR300M Nor, AR150, GL-MiFi and GL-6416. You can use this image builder to build a firmware quickly.
 
